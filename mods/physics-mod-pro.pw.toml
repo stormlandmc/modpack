@@ -1,0 +1,8 @@
+name = "Physics Mod Pro"
+filename = "physics-mod-pro-v171i-fabric-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://i.otomir23.me/buckets/stormland/physics-mod-pro-v171i-fabric-1.20.1.jar"
+hash-format = "sha1"
+hash = "2c93ca03528f04ed241b89e7af54550700a997e5"

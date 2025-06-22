@@ -5,6 +5,10 @@ file = "config/immersive_aircraft.json"
 hash = "2ad465bb8960715aea5e71551e4f2b29a9c2016697fe5067db41ae6ae73ac80c"
 
 [[files]]
+file = "config/tide.toml"
+hash = "a7df93429e4f80d2654eb52a8481f94c84e891b80d21b32b1cc2a88d7b56b553"
+
+[[files]]
 file = "config/vinery.json"
 hash = "beafb1404fbdcacd24ba4677cc97e95d9d8a2b4255cc6348f8b78cb66f62d0a4"
 

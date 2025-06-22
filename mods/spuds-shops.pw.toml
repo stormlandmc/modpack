@@ -1,0 +1,13 @@
+name = "Spud's shops"
+filename = "spuds-shops-1.20.1-1.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sHFbDnFN/versions/roe6AapF/spuds-shops-1.20.1-1.7.1.jar"
+hash-format = "sha1"
+hash = "1f7b7b6b6708f5b1fee239c97ff7caaf804b0ea5"
+
+[update]
+[update.modrinth]
+mod-id = "sHFbDnFN"
+version = "roe6AapF"

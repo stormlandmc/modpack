@@ -1,0 +1,13 @@
+name = "ExtraSounds Next"
+filename = "ExtraSoundsNext-fabric-1.20.1-1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/jv7tzVE4/versions/ygFs6kYL/ExtraSoundsNext-fabric-1.20.1-1.4.jar"
+hash-format = "sha1"
+hash = "a57b4d0fd92f462adbabc2d1c06d1a478c0c915b"
+
+[update]
+[update.modrinth]
+mod-id = "jv7tzVE4"
+version = "ygFs6kYL"

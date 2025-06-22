@@ -1,0 +1,13 @@
+name = "Seasonal Let's Do"
+filename = "seasonal_lets_do-fabric-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/yFIPn94r/versions/cKPmGOVH/seasonal_lets_do-fabric-1.1.0.jar"
+hash-format = "sha1"
+hash = "b301c05c0d067386405cae6b342a6ee4a72304ff"
+
+[update]
+[update.modrinth]
+mod-id = "yFIPn94r"
+version = "cKPmGOVH"

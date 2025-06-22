@@ -1,0 +1,13 @@
+name = "Musket Mod"
+filename = "musketmod-1.20.1-fabric-1.5.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/967vM4zw/versions/x2hs2gP3/musketmod-1.20.1-fabric-1.5.4.jar"
+hash-format = "sha1"
+hash = "fd0fb2664a0cf12cfe8cae19cea9aa55b0566706"
+
+[update]
+[update.modrinth]
+mod-id = "967vM4zw"
+version = "x2hs2gP3"

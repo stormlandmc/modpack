@@ -1,0 +1,13 @@
+name = "Stormland"
+author = "Kermannne"
+version = "6.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c6470d946d5d4770dde67b5256291758b05a325a0ad5ac066bf8068de05ea245"
+
+[versions]
+fabric = "0.16.14"
+minecraft = "1.20.1"

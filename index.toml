@@ -294,11 +294,6 @@ hash = "3d022dfa126a9ab61387dce579f79c01d60e3ae2a7e12fd54fc1863924ad62d1"
 metafile = true
 
 [[files]]
-file = "mods/keep-some-inventory.pw.toml"
-hash = "e80bdeeb3623608e95f20f3c15095f97238c3663443a3642d6614518e680594a"
-metafile = true
-
-[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "1e8c93af2b63d47ea457aa43b818835d6e7f1e9e004ddd64620340004c755cc8"
 metafile = true
@@ -416,6 +411,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "a3d67082a95f70155d68aec25d7ffba8a7c7bc48b342529e52005ddfc76f11ae"
+metafile = true
+
+[[files]]
+file = "mods/pneumono_gravestones.pw.toml"
+hash = "677dd0e2f039967ca29a8be9a054437b495b435e974eb1f0686058447ece5ad1"
 metafile = true
 
 [[files]]

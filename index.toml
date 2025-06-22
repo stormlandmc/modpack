@@ -5,6 +5,34 @@ file = "config/immersive_aircraft.json"
 hash = "2ad465bb8960715aea5e71551e4f2b29a9c2016697fe5067db41ae6ae73ac80c"
 
 [[files]]
+file = "config/physicsmod/physics_animations_client_config.json"
+hash = "d8a629b25da461374926b02b6649ed90154cb1bb6ab7e5208f519b5bcf29b08b"
+
+[[files]]
+file = "config/physicsmod/physics_blocks_client_config.json"
+hash = "712c08f676ec058fc46ebe4c4991facff23ddf0659e8d88a871584c9529d6470"
+
+[[files]]
+file = "config/physicsmod/physics_client_config.json"
+hash = "7200d2f47a384aee80c9307d0bac47d9edc3d66c738785f714e94bea0be1fd4c"
+
+[[files]]
+file = "config/physicsmod/physics_cloth_config.json"
+hash = "c004242898b912a2ad1a836a4e017d921c1e8660180565ce56dc4cadc027e939"
+
+[[files]]
+file = "config/physicsmod/physics_mobs_client_config.json"
+hash = "752775debf65550a6a11ae2cc27c6f5c649cb8ac833a496e5c222d484bc63c14"
+
+[[files]]
+file = "config/physicsmod/physics_server_config.json"
+hash = "e6c1234596884339e56c93f3e52ae9b646c70bd245ca301775de4317a8f8928a"
+
+[[files]]
+file = "config/physicsmod/physics_vines_client_config.json"
+hash = "c9d1e879d59f8054287c2bcdff2f668da1da20d54c58433b66af02dbeb492325"
+
+[[files]]
 file = "config/tide.toml"
 hash = "a7df93429e4f80d2654eb52a8481f94c84e891b80d21b32b1cc2a88d7b56b553"
 
@@ -581,3 +609,11 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "f3a64655c05f7e35e2de71867cff34ecfeeed52323cad3d2eb125c91adcb6d90"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "013f9b32edb4faeeb4d38a935cc998d8060b2e214174c06fbadb1ccdfddd4e3c"
+
+[[files]]
+file = "servers.dat"
+hash = "87ce6b746a2cf45b58cb9063511aea2633d19a1ade91f91e36cf9521e5b0120b"

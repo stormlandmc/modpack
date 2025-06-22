@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/immersive_aircraft.json"
+hash = "2ad465bb8960715aea5e71551e4f2b29a9c2016697fe5067db41ae6ae73ac80c"
+
+[[files]]
+file = "config/vinery.json"
+hash = "beafb1404fbdcacd24ba4677cc97e95d9d8a2b4255cc6348f8b78cb66f62d0a4"
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "5e190af36866474271ab222911f9e4cc0ede0db4ab1b333cbb91ce360bb794d1"
 metafile = true

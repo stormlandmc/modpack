@@ -516,6 +516,11 @@ hash = "f24b49462f01bc80f7054b5dba4ba13308926a28759f410b2bbd41812960fc30"
 metafile = true
 
 [[files]]
+file = "mods/souper_secret_settings.pw.toml"
+hash = "b8d1c794c954438553af2025cacc7b6a1f030d4900044741b46ebeebb20251d1"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "96e3771cd09bb4a808d1c1fcb5a050efdc2ffb4efe7b584407ed54c46c0388d9"
 metafile = true

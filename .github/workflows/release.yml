@@ -1,0 +1,37 @@
+name: release
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Extract metadata from pack.toml
+        id: get_meta
+        run: |
+          VERSION=$(grep '^version' pack.toml | sed -E 's/version *= *"([^"]+)"/\1/')
+          NAME=$(grep '^name' pack.toml | sed -E 's/name *= *"([^"]+)"/\1/')
+          echo "Name: $NAME"
+          echo "Version: $VERSION"
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "name=$NAME" >> $GITHUB_OUTPUT
+      - name: Install Packwiz
+        uses: supplypike/setup-bin@v3
+        with:
+          uri: "https://nightly.link/packwiz/packwiz/actions/runs/14635814142/Linux%2064-bit%20x86.zip"
+          name: "packwiz"
+          version: "linux"
+      - name: Build Modpack with Packwiz
+        id: build_modpack
+        run: packwiz mr export
+      - name: Create a release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.get_meta.outputs.name }}-${{ steps.get_meta.outputs.version }}.mrpack
+          draft: false
+          prerelease: false
+          release_name: ${{ steps.get_meta.outputs.version }}
+          tag_name: ${{ steps.get_meta.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

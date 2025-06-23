@@ -215,6 +215,11 @@ hash = "949b95ef9ce26b00f31bfcbee6dc186ecbb29b575410c654154d8c1a74fcc488"
 metafile = true
 
 [[files]]
+file = "mods/easywhitelist.pw.toml"
+hash = "c2c3ed9e2cc62d83e3e14d7ec32b7c482acc11d871e0691fef88a9d64dc17b73"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "73323b708304a194d6ecdca4f477887898686a6f309f8cc053bc50fed1b703e5"
 metafile = true

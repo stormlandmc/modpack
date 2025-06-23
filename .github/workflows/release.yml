@@ -1,5 +1,7 @@
 name: release
 on: [workflow_dispatch]
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -31,7 +33,7 @@ jobs:
           files: ${{ steps.get_meta.outputs.name }}-${{ steps.get_meta.outputs.version }}.mrpack
           draft: false
           prerelease: false
-          release_name: ${{ steps.get_meta.outputs.version }}
+          name: ${{ steps.get_meta.outputs.version }}
           tag_name: ${{ steps.get_meta.outputs.version }}
         env:
           GITHUB_TOKEN: ${{ github.token }}

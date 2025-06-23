@@ -1,12 +1,12 @@
 name = "Stormland"
-author = "Kermannne"
+author = "Kermannne & otomir23"
 version = "6.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "240246a90d37ca7fd4690a410d8b448c47c8d9b7a3ed12e0813ef4d216f2378c"
+hash = "677967aed6b240f7e2032597e8d4dfce0edbe504d14e7a36acd0673245905049"
 
 [versions]
 fabric = "0.16.14"

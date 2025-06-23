@@ -41,6 +41,10 @@ file = "config/vinery.json"
 hash = "beafb1404fbdcacd24ba4677cc97e95d9d8a2b4255cc6348f8b78cb66f62d0a4"
 
 [[files]]
+file = "icon.png"
+hash = "b3731bb46fe6a28f74cb01fe2bf8dc1ba3c05d96010b2b6ac26f85928fa8e718"
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "5e190af36866474271ab222911f9e4cc0ede0db4ab1b333cbb91ce360bb794d1"
 metafile = true

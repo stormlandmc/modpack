@@ -206,6 +206,11 @@ hash = "c405861d9a48188f20742968b6d2e3863c8e75668c15d1fecc1a7826bb70ad99"
 metafile = true
 
 [[files]]
+file = "mods/easyauth.pw.toml"
+hash = "949b95ef9ce26b00f31bfcbee6dc186ecbb29b575410c654154d8c1a74fcc488"
+metafile = true
+
+[[files]]
 file = "mods/emi.pw.toml"
 hash = "73323b708304a194d6ecdca4f477887898686a6f309f8cc053bc50fed1b703e5"
 metafile = true
@@ -338,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "b0487d5437a636e61b353c70699994de1fd1aca903853d9366860cbbcfca5fd2"
+metafile = true
+
+[[files]]
+file = "mods/ledger.pw.toml"
+hash = "84defc8f8116d5c0e4210934ed1f555641a1db71b767fa4beddee21c47118868"
 metafile = true
 
 [[files]]
